@@ -29,7 +29,7 @@ while True:
 
     cv2.imshow("Hand Gesture Recognition", img)
 
-    if cv2.waitKey(1) == 27:  # ESC key
+    if cv2.waitKey(1) == 27:  
         break
 
 cap.release()
